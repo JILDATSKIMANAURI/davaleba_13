@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+.container{
+    display: flex;
+}
+.section1{
+    height: 783px;
+    background: #515DEF;
+}
+.logo img{
+    margin-left: 60px;
+    margin-top: 23px;
+}
+.content{
+    width: 512px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+a{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    /* White */
+    color: #FBFBFB;
+}
+.box{
+    margin-left: 60px;
+}
+h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+    /* White */
+    color: #FBFBFB;
+    padding-top: 30px;
+}
+p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+    /* White */
+    color: #FBFBFB;
+    padding-top: 0px;
+}
+h2{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    /* White */
+    color: #FBFBFB;
+    padding-top: 10px;
+}
+.button1{
+    width: 299px;
+    height: 80px;
+    background: #FBFBFB;
+    border-color: #FBFBFB;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+    /* Black */
+    color: #333333;
+}
+.section2{
+    background-image: url(./fotos/smiling-creative-business-team-discussing-over-lap-566JQTQ\ 1.png);
+    background-repeat:no-repeat;
+    background-size: cover ;
+}
+.button2{
+    width: 149px;
+    height: 60px;
+    background: #515DEF;
+    border-color: #515DEF;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    /* White */
+    color: #FBFBFB;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.section3{
+    width: 1199px;
+    background: #FBFBFB;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+}
+.scrool{
+    width: 49px;
+    height: 40px;
+    padding-left: 60px;
+    padding-top: 204px;
+}
+h3{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    /* Black */
+    color: #333333; 
+}
+a{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #909090;
+    width: 328px;
+    height: 54px; 
+}
+.box1 , .box2 , .box3{
+    padding-top: 5px;
+    padding-left: 60px;
+}
